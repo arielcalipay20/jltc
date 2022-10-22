@@ -7,7 +7,7 @@
 #eps {
     background: var(--mainbg-color);
     border-radius: 5px;
-    transform: scale(1.1);
+/*     transform: scale(1.1); */
 }
 
 #eps a {
