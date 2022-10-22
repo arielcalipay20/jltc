@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.25s;
+}
+
+#passers {
+    background: var(--mainbg-color);
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+#passers .passers-org{
+    color: white;
+}
+
+.fa-caret-down {
+    color: white;
+}
+
+.passers-link {
+    color: black;
+}
+
+.right-side .link {
+    background: transparent;
+}
+
+.right-side div a {
+    color: black;
+}

@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.25s;
+}
+
+#contact {
+    background: var(--mainbg-color);
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+#contact a {
+    color: white;
+}
+
+#left-side {
+    align-items: center;
+}
+
+.right-side .link {
+    background: transparent;
+}
+
+.right-side div a {
+    color: black;
+}
