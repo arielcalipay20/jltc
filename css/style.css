@@ -1129,6 +1129,10 @@ footer {
     margin-bottom: 20px;
 }
 
+.created a {
+    text-decoration: none;
+}
+
 
 /*Responsive at big phone and Tablet either portrait or landscape */
 
