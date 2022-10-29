@@ -136,6 +136,7 @@ nav {
 .right-side {
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 .right-side a {
@@ -209,6 +210,11 @@ nav {
     cursor: pointer;
     font-size: 25px;
     color: var(--mainbg-color);
+}
+
+#close {
+    position: fixed;
+    margin-left: -10px;
 }
 
 
@@ -689,7 +695,7 @@ ul li span {
 }
 
 .form-container form{
-    padding: 2% 10%;
+    padding: 8% 10%;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
@@ -707,7 +713,12 @@ ul li span {
     cursor: pointer;
     font-size: 25px;
     color: var(--mainbg-color);
-    margin: 2% -10% 15px auto;
+    /* margin: 2% -10% 15px auto; */
+    position: fixed;
+    display: flex;
+    right: 10%;
+    top: 10%;
+    z-index: 1000;
 }
 
 label {
@@ -1133,7 +1144,7 @@ footer {
 
     #close {
         margin-bottom: 20px;
-        margin-top: -10px;
+        margin-top: -20px;
     }
 
     .right-side {
@@ -1220,6 +1231,10 @@ footer {
     }
 
     /*For Contact-Section*/
+
+    .form-container form{
+        padding: 13% 12%;
+    }
 
     #closeForm {
         font-size: 23px;
@@ -1365,6 +1380,10 @@ footer {
     }
 
     /*For Contact-Section*/
+
+    .form-container form{
+        padding: 18% 14%;
+    }
 
     #closeForm {
         font-size: 21px;
