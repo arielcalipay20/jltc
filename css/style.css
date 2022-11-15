@@ -439,6 +439,10 @@ details p {
     transform: scale(0.9);
 }
 
+.no-link {
+    text-decoration: none;
+}
+
 
 /*Service Section*/
 
